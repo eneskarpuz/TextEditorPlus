@@ -11,7 +11,7 @@ import {
 import { DragTextEditor } from 'react-native-drag-text-editor';
 import Slider from '@react-native-community/slider';
 const WINDOW = Dimensions.get('window');
-const BACKGROUND="https://images.unsplash.com/photo-1519666152019-8340ed12987b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80";
+const BACKGROUND="https://images.unsplash.com/photo-1521288936840-032bc23139ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
 const TEXT ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
 const FONTDEF ='Montserrat-Medium';
 const BLACK="#000";
@@ -236,8 +236,8 @@ addText(){ //text ekle array[]
      return (
           <DragTextEditor 
           key={index}
-          minW={100}
-          minH={100}
+          minWidth={100}
+          minHeight={100}
           w={200}
           h={200}
           x={WINDOW.width/4}
