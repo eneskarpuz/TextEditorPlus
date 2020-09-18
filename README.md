@@ -1,6 +1,6 @@
 
-![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cIOS.gif)
-![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cAndro.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/wIOS.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/wAndro.gif)
 
 
 - [ ] Performance Optimization (Code Duplicates etc.)
