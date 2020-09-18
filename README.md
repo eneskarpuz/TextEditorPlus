@@ -1,5 +1,7 @@
 
-![alt text](https://github.com/eneskarpuz/Prototest/blob/master/merged1.gif) 
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cIOS.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cAndro.gif)
+
 
 - [ ] Performance Optimization (Code Duplicates etc.)
 - [ ] textID and textInAction Bug (Type Error)
