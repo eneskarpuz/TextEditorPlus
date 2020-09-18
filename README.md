@@ -7,8 +7,9 @@
 ![](https://img.shields.io/github/languages/code-size/eneskarpuz/react-native-drag-text-editor?style=flat-square)
 
 ![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cIOS.gif)
-![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cAndro2.gif)
-
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/lastAndro.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/draginfo.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/borderinfo.gif)
 
 - [ ] Performance Optimization (Code Duplicates etc.)
 - [ ] textID and textInAction Bug (Type Error)

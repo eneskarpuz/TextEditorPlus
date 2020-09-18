@@ -11,7 +11,7 @@ import {
 import { DragTextEditor } from 'react-native-drag-text-editor';
 import Slider from '@react-native-community/slider';
 const WINDOW = Dimensions.get('window');
-const BACKGROUND="https://images.unsplash.com/photo-1521288936840-032bc23139ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
+const BACKGROUND=require("./black-white-wall.jpg");//"https://images.unsplash.com/photo-1519666152019-8340ed12987b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80";
 const TEXT ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
 const FONTDEF ='Montserrat-Medium';
 const BLACK="#000";
@@ -25,7 +25,8 @@ const COLORS=[
             "#0ec0af",
               "#69d8cc",
                 "#e9cec3",
-];
+                  "#c3c3c3",
+                ];
 const LEFT="left";
 const RIGHT="right";
 const CENTER="center";
@@ -263,7 +264,7 @@ addText(){ //text ekle array[]
       
    return(
   <View style={styles.parent}>
-    <Image style={styles.background} source={{uri:BACKGROUND}}>
+    <Image style={styles.background} source={BACKGROUND}>
     </Image>
      <View style={styles.container}>
        <Image style={styles.image} source={require("./icons/rotate100.png")}/>
@@ -322,6 +323,7 @@ const styles = StyleSheet.create({
     resizeMode:"cover",
     width:WINDOW.width,
     height:WINDOW.height,
+    //transform: [{ rotate: "180deg" }],
     flexDirection:"column",
   },
   process:{
