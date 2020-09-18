@@ -7,7 +7,7 @@
 ![](https://img.shields.io/github/languages/code-size/eneskarpuz/react-native-drag-text-editor?style=flat-square)
 
 ![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cIOS.gif)
-![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cAndro.gif)
+![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/cAndro1.gif)
 
 
 - [ ] Performance Optimization (Code Duplicates etc.)
