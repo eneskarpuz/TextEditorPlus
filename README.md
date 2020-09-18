@@ -1,5 +1,4 @@
 # Text Editor Plus
--------------------
 
 ![](https://img.shields.io/badge/dynamic/json?color=success&label=npm&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Feneskarpuz%2Freact-native-drag-text-editor%2Fmaster%2Fpackage.json&style=flat-square) 
 ![](https://img.shields.io/npm/dm/react-native-text-prototype?style=flat-square)
