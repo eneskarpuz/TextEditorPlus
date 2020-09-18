@@ -5,7 +5,7 @@
 ![](https://img.shields.io/npm/dm/react-native-text-prototype?style=flat-square)
 ![](https://img.shields.io/npm/l/react-native-drag-text-editor?style=flat-square)
 ![](https://img.shields.io/badge/platform-%20IOS%20%7C%20Android%20-black?style=flat-square)
-![](https://img.shields.io/github/languages/code-size/eneskarpuz/react-native-drag-text-editor?style=flat-squareflat-square)
+![](https://img.shields.io/github/languages/code-size/eneskarpuz/react-native-drag-text-editor?style=flat-square)
 
 ![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/wIOS.gif)
 ![alt text](https://github.com/eneskarpuz/TextEditorPlus/blob/master/gifs/wAndro.gif)
