@@ -11,7 +11,7 @@ import {
 import { DragTextEditor } from 'react-native-drag-text-editor';
 import Slider from '@react-native-community/slider';
 const WINDOW = Dimensions.get('window');
-const BACKGROUND=require("./black-white-wall.jpg");//"https://images.unsplash.com/photo-1519666152019-8340ed12987b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80";
+const BACKGROUND="https://images.unsplash.com/photo-1519666152019-8340ed12987b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80";
 const TEXT ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
 const FONTDEF ='Montserrat-Medium';
 const BLACK="#000";
@@ -251,12 +251,12 @@ addText(){ //text ekle array[]
           centerPress={()=>this.setState({textInAction:ID.defTextID})} 
           isDraggable={true}
           isResizable={true}
-        /*  onDragStart={()=>console.log("-Drag Started")}
+          onDragStart={()=>console.log("-Drag Started")}
           onDragEnd={()=>console.log("- Drag ended")}
           onDrag={()=>console.log("- Dragging...")}
           onResizeStart={()=>console.log("- Resize Started")}
           onResize={()=>console.log("- Resizing...")}
-          onResizeEnd={()=>console.log("- Resize Ended")}*/
+          onResizeEnd={()=>console.log("- Resize Ended")}
         
           />
         )
@@ -264,7 +264,7 @@ addText(){ //text ekle array[]
       
    return(
   <View style={styles.parent}>
-    <Image style={styles.background} source={BACKGROUND}>
+    <Image style={styles.background} source={{uri:BACKGROUND}}>
     </Image>
      <View style={styles.container}>
        <Image style={styles.image} source={require("./icons/rotate100.png")}/>
@@ -323,7 +323,6 @@ const styles = StyleSheet.create({
     resizeMode:"cover",
     width:WINDOW.width,
     height:WINDOW.height,
-    //transform: [{ rotate: "180deg" }],
     flexDirection:"column",
   },
   process:{
