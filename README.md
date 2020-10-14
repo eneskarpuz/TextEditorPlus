@@ -1,6 +1,6 @@
 
 # Text Editor Plus
- Text Editor Plus is an example of ![react-native-drag-text-editor](https://github.com/eneskarpuz/react-native-drag-text-editor) package for booth Android and IOS. 
+ Text Editor Plus is an example of ![react-native-drag-text-editor](https://github.com/eneskarpuz/react-native-drag-text-editor) package for both Android and IOS. 
 <p align="center">
   <a href="https://www.npmjs.com/package/react-native-drag-text-editor">
 <img src="https://img.shields.io/badge/dynamic/json?color=success&label=npm&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Feneskarpuz%2Freact-native-drag-text-editor%2Fmaster%2Fpackage.json&style=flat-square"/> 
