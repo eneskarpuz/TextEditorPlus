@@ -18,7 +18,7 @@
 
 # Usage 
 - Clone this repository
-- Navigate to the directory of the cloned project on terminal and run;
+- Navigate to the directory of the cloned project on terminal and run ;
 ```sh
 $ npm install 
 ```
